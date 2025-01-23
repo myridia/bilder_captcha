@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name:  WP Image CAPTCHA
- * Plugin URI:   https://wpimagecaptcha.com/
+ * Plugin Name:  Bilder Captcha 
+ * Plugin URI:   https://bilder_captcha.myridia.com
  * Description:  Adds an image CAPTCHA to your "Contact Form 7" and "WPForms" forms.
  * Version:      3.3.22
- * Author:       WP Image CAPTCHA
- * Author URI:   https://wpimagecaptcha.com/
- * License:      GNU General Public License v2
- * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+ * Author:       Myridia.com
+ * Author URI:   https://bilder_captcha.myridia.com
+ * License:      GNU General Public License v3
+ * License URI:  https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:  contact-form-7-image-captcha
  * Domain Path:  /languages
  */
