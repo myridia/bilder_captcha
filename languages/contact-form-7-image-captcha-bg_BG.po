@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha 1.1\n"
+"POT-Creation-Date: 2018-01-09 13:23-0800\n"
+"PO-Revision-Date: 2018-01-09 13:23-0800\n"
+"Last-Translator: Phoenix.bg <phoenix.bg@gmail.com>\n"
+"Language-Team: Kyle Charlton <kyle@kccomputing.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cf7-image-captcha.php:28
+msgid "Go Pro"
+msgstr "Купете премия версия"
+
+#: cf7-image-captcha.php:68
+msgid "Heart"
+msgstr "Сърце"
+
+#: cf7-image-captcha.php:69
+msgid "House"
+msgstr "Къща"
+
+#: cf7-image-captcha.php:70
+msgid "Star"
+msgstr "Звезда"
+
+#: cf7-image-captcha.php:71
+msgid "Car"
+msgstr "Кола"
+
+#: cf7-image-captcha.php:72
+msgid "Cup"
+msgstr "Чаша"
+
+#: cf7-image-captcha.php:73
+msgid "Flag"
+msgstr "Знаме"
+
+#: cf7-image-captcha.php:74
+msgid "Key"
+msgstr "Ключ"
+
+#: cf7-image-captcha.php:75
+msgid "Truck"
+msgstr "Камион"
+
+#: cf7-image-captcha.php:76
+msgid "Tree"
+msgstr "Дърво"
+
+#: cf7-image-captcha.php:77
+msgid "Plane"
+msgstr "Самолет"
+
+#: cf7-image-captcha.php:91
+msgid "Please prove you are human by selecting the "
+msgstr "Моля кликнете с мишката върху "
+
+#: cf7-image-captcha.php:93
+msgid "."
+msgstr "."
+
+#: cf7-image-captcha.php:121
+msgid "Please select the correct icon."
+msgstr "Моля изберете правилния иконата."
+
+#: cf7-image-captcha.php:125
+msgid "Please select an icon."
+msgstr "Моля изберете икона."
+
+#: cf7-image-captcha.php:140
+msgid "Image Captcha"
+msgstr ""
+
+#: cf7-image-captcha.php:154
+msgid "Insert Tag"
+msgstr ""
+
+#~ msgid "Please prove you are human by selecting the"
+#~ msgstr "Моля кликнете с мишката върху "

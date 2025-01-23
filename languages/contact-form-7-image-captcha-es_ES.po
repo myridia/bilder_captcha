@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-03 07:55-0700\n"
+"PO-Revision-Date: 2020-02-11 12:48-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: cf7-image-captcha.php:65
+msgid "Heart"
+msgstr " el corazón"
+
+#: cf7-image-captcha.php:66
+msgid "House"
+msgstr " la casa"
+
+#: cf7-image-captcha.php:67
+msgid "Star"
+msgstr " la estrella"
+
+#: cf7-image-captcha.php:68
+msgid "Car"
+msgstr " el coche"
+
+#: cf7-image-captcha.php:69
+msgid "Cup"
+msgstr " la copa"
+
+#: cf7-image-captcha.php:70
+msgid "Flag"
+msgstr " la bandera"
+
+#: cf7-image-captcha.php:71
+msgid "Key"
+msgstr " la tecla"
+
+#: cf7-image-captcha.php:72
+msgid "Truck"
+msgstr " el camión"
+
+#: cf7-image-captcha.php:73
+msgid "Tree"
+msgstr " el árbol"
+
+#: cf7-image-captcha.php:74
+msgid "Plane"
+msgstr " el avión"
+
+#: cf7-image-captcha.php:89
+msgid "Please prove you are human by selecting the"
+msgstr "Por favor demuestra que eres humano, selecciona "

@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-10-08 12:59-0700\n"
+"PO-Revision-Date: 2016-10-08 13:01-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cf7-image-captcha.php:28
+msgid "Go Pro"
+msgstr "Acheter la version premium"
+
+#: cf7-image-captcha.php:68
+msgid "Heart"
+msgstr "Le Coeur"
+
+#: cf7-image-captcha.php:69
+msgid "House"
+msgstr "La Maison"
+
+#: cf7-image-captcha.php:70
+msgid "Star"
+msgstr "L'Etoile"
+
+#: cf7-image-captcha.php:71
+msgid "Car"
+msgstr "La Voiture"
+
+#: cf7-image-captcha.php:72
+msgid "Cup"
+msgstr "La Tasse"
+
+#: cf7-image-captcha.php:73
+msgid "Flag"
+msgstr "Le Drapeau"
+
+#: cf7-image-captcha.php:74
+msgid "Key"
+msgstr "La Clé"
+
+#: cf7-image-captcha.php:75
+msgid "Truck"
+msgstr "Le Camion"
+
+#: cf7-image-captcha.php:76
+msgid "Tree"
+msgstr "L'Arbre"
+
+#: cf7-image-captcha.php:77
+msgid "Plane"
+msgstr "L'Avion"
+
+#: cf7-image-captcha.php:91
+msgid "Please prove you are human by selecting the "
+msgstr "Svp prouvez que vous êtes un humain en sélectionnant"
+
+#: cf7-image-captcha.php:93
+msgid "."
+msgstr ""
+
+#: cf7-image-captcha.php:121
+msgid "Please select the correct icon."
+msgstr "S'il vous plaît sélectionnez l'icône correcte."
+
+#: cf7-image-captcha.php:125
+msgid "Please select an icon."
+msgstr "S'il vous plaît sélectionner une icône."
+
+#~ msgid "Please prove you are human by selecting the"
+#~ msgstr "Svp prouvez que vous êtes un humain en sélectionnant"

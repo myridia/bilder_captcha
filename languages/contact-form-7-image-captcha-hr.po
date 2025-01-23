@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-12 07:33+0000\n"
+"PO-Revision-Date: 2020-10-12 07:06-0700\n"
+"Last-Translator: Ivan\n"
+"Language-Team: Hrvatski\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1\n"
+
+#: cf7-image-captcha.php:109
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid "Add a simple image captcha and Honeypot to contact form 7"
+msgstr "U obrazac za kontakt dodajte jednostavnu captcha slike i Honeypot"
+
+#: cf7-image-captcha.php:80
+msgid "Car"
+msgstr "Auto"
+
+#. Name of the plugin
+msgid "Contact Form 7 Image Captcha"
+msgstr "Contact Form 7 Image Captcha"
+
+#: cf7-image-captcha.php:81
+msgid "Cup"
+msgstr "Šalica"
+
+#: cf7-image-captcha.php:82
+msgid "Flag"
+msgstr "Zastava"
+
+#: cf7-image-captcha.php:29
+msgid "Go Pro"
+msgstr "tKupi cijelu verziju"
+
+#: cf7-image-captcha.php:77
+msgid "Heart"
+msgstr "Srce"
+
+#: cf7-image-captcha.php:78
+msgid "House"
+msgstr "Kuća"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/ktc_88"
+msgstr "https://profiles.wordpress.org/ktc_88"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/contact-form-7-image-captcha/"
+msgstr "https://wordpress.org/plugins/contact-form-7-image-captcha/"
+
+#: cf7-image-captcha.php:164
+msgid "Image Captcha"
+msgstr "Slika Captcha"
+
+#. Author of the plugin
+msgid "KC Computing"
+msgstr "KC Computing"
+
+#: cf7-image-captcha.php:83
+msgid "Key"
+msgstr "Ključ"
+
+#: cf7-image-captcha.php:86
+msgid "Plane"
+msgstr "Avion"
+
+#: cf7-image-captcha.php:107
+msgid "Please prove you are human by selecting the "
+msgstr "Molimo označite "
+
+#: cf7-image-captcha.php:147
+msgid "Please select an icon."
+msgstr "Odaberite ikonu."
+
+#: cf7-image-captcha.php:143
+msgid "Please select the correct icon."
+msgstr "Odaberite ispravnu ikonu."
+
+#: cf7-image-captcha.php:79
+msgid "Star"
+msgstr "Zvijezda"
+
+#: cf7-image-captcha.php:85
+msgid "Tree"
+msgstr "Drvo"
+
+#: cf7-image-captcha.php:84
+msgid "Truck"
+msgstr "Kamion"

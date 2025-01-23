@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-09 12:05+0000\n"
+"PO-Revision-Date: 2019-09-23 21:52-0700\n"
+"Language-Team: Italian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Language: nl\n"
+
+#: cf7-image-captcha.php:28
+msgid "Go Pro"
+msgstr "Go Pro"
+
+#: cf7-image-captcha.php:68
+msgid "Heart"
+msgstr "het hart"
+
+#: cf7-image-captcha.php:69
+msgid "House"
+msgstr "het huis"
+
+#: cf7-image-captcha.php:70
+msgid "Star"
+msgstr "de ster"
+
+#: cf7-image-captcha.php:71
+msgid "Car"
+msgstr "de auto"
+
+#: cf7-image-captcha.php:72
+msgid "Cup"
+msgstr "het Kopje"
+
+#: cf7-image-captcha.php:73
+msgid "Flag"
+msgstr "de vlag"
+
+#: cf7-image-captcha.php:74
+msgid "Key"
+msgstr "de sleutel"
+
+#: cf7-image-captcha.php:75
+msgid "Truck"
+msgstr "de vrachtwagen"
+
+#: cf7-image-captcha.php:76
+msgid "Tree"
+msgstr "de boom"
+
+#: cf7-image-captcha.php:77
+msgid "Plane"
+msgstr "het vliegtuig"
+
+#: cf7-image-captcha.php:91
+msgid "Please prove you are human by selecting the "
+msgstr "Toon a.u.b. dat u menselijk bent door de selectie van"
+
+#: cf7-image-captcha.php:93
+msgid "."
+msgstr "."
+
+#: cf7-image-captcha.php:121
+msgid "Please select the correct icon."
+msgstr "Selecteer a.u.b. het juiste symbool."
+
+#: cf7-image-captcha.php:125
+msgid "Please select an icon."
+msgstr "Selecteer a.u.b. een symbool."
+
+#: cf7-image-captcha.php:147
+msgid "Image Captcha"
+msgstr "Afbeelding Captcha"
+
+#. Name of the plugin
+msgid "Contact Form 7 Image Captcha"
+msgstr "Contact Form 7 Afbeelding captcha"
+
+#. Description of the plugin
+msgid "Add a simple image captcha and Honeypot to contact form 7"
+msgstr "Voeg eenvoudig een afbeelding captcha en \"honeypot\" toe in het contact 7 formulier"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/contact-form-7-image-captcha/"
+msgstr "https://wordpress.org/plugins/contact-form-7-image-captcha/"
+
+#. Author of the plugin
+msgid "KC Computing"
+msgstr "KC Computing"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/ktc_88"
+msgstr "https://profiles.wordpress.org/ktc_88"
