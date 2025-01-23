@@ -2,78 +2,104 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-10-08 12:57-0700\n"
-"PO-Revision-Date: 2016-10-08 12:58-0700\n"
+"PO-Revision-Date: 2023-11-13 06:42+0000\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Language: fr\n"
+"Language-Team: Spanish (Mexico)\n"
+"Language: es_MX\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: cf7-image-captcha.php:28
-msgid "Go Pro"
+#: includes/module-cf7.php:36
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid "Adds an image CAPTCHA to your \"Contact Form 7\" and \"WPForms\" forms."
 msgstr ""
 
-#: cf7-image-captcha.php:68
-msgid "Heart"
-msgstr "el corazón"
-
-#: cf7-image-captcha.php:69
-msgid "House"
-msgstr "de la casa"
-
-#: cf7-image-captcha.php:70
-msgid "Star"
-msgstr "de la estrella"
-
-#: cf7-image-captcha.php:71
-msgid "Car"
+#: includes/captcha-generator.php:25 includes/module-cf7.php:28
+#| msgid "Car"
+msgid "car"
 msgstr "de los coches"
 
-#: cf7-image-captcha.php:72
-msgid "Cup"
+#: includes/captcha-generator.php:29 includes/module-cf7.php:29
+#| msgid "Cup"
+msgid "cup"
 msgstr "de la copa"
 
-#: cf7-image-captcha.php:73
-msgid "Flag"
+#: includes/captcha-generator.php:33 includes/module-cf7.php:30
+#| msgid "Flag"
+msgid "flag"
 msgstr "de la bandera"
 
-#: cf7-image-captcha.php:74
-msgid "Key"
-msgstr "de la tecla"
+#: includes/captcha-generator.php:13 includes/module-cf7.php:25
+#| msgid "Heart"
+msgid "heart"
+msgstr "el corazón"
 
-#: cf7-image-captcha.php:75
-msgid "Truck"
-msgstr "de la camioneta"
+#: includes/captcha-generator.php:17 includes/module-cf7.php:26
+#| msgid "House"
+msgid "house"
+msgstr "de la casa"
 
-#: cf7-image-captcha.php:76
-msgid "Tree"
-msgstr "del árbol"
-
-#: cf7-image-captcha.php:77
-msgid "Plane"
-msgstr "del avión"
-
-#: cf7-image-captcha.php:91
-msgid "Please prove you are human by selecting the "
-msgstr "Por favor, demuestra que eres humano mediante la selección"
-
-#: cf7-image-captcha.php:93
-msgid "."
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpimagecaptcha.com/"
 msgstr ""
 
-#: cf7-image-captcha.php:121
-msgid "Please select the correct icon."
-msgstr "Por favor, seleccione el icono correcto."
+#: includes/captcha-generator.php:37 includes/module-cf7.php:31
+#| msgid "Key"
+msgid "key"
+msgstr "de la tecla"
 
-#: cf7-image-captcha.php:125
+#: includes/captcha-generator.php:49 includes/module-cf7.php:34
+#| msgid "Plane"
+msgid "plane"
+msgstr "del avión"
+
+#: includes/captcha-generator.php:69 includes/module-cf7.php:35
+#| msgid "Please prove you are human by selecting the "
+msgid "Please prove you are human by selecting the"
+msgstr "Por favor, demuestra que eres humano mediante la selección"
+
+#: includes/module-cf7.php:142 includes/module-wpforms.php:34
 msgid "Please select an icon."
 msgstr "Por favor, seleccione un icono."
 
-#~ msgid "Please prove you are human by selecting the"
-#~ msgstr "Por favor, demuestra que eres humano mediante la selección"
+#: includes/module-cf7.php:137 includes/module-wpforms.php:32
+msgid "Please select the correct icon."
+msgstr "Por favor, seleccione el icono correcto."
+
+#: includes/captcha-generator.php:21 includes/module-cf7.php:27
+#| msgid "Star"
+msgid "star"
+msgstr "de la estrella"
+
+#: includes/module-wpforms.php:30
+msgid "The captcha was incorrect. Please reload the page."
+msgstr "El captcha era incorrecto. Por favor, vuelva a cargar la página."
+
+#: includes/module-wpforms.php:36
+msgid "This message has been marked as spam."
+msgstr "Este mensaje ha sido marcado como spam."
+
+#: includes/captcha-generator.php:45 includes/module-cf7.php:33
+#| msgid "Tree"
+msgid "tree"
+msgstr "del árbol"
+
+#: includes/captcha-generator.php:41 includes/module-cf7.php:32
+#| msgid "Truck"
+msgid "truck"
+msgstr "de la camioneta"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Image CAPTCHA"
+msgstr ""

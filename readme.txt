@@ -1,25 +1,27 @@
-=== Contact Form 7 Image Captcha ===
-Contributors: KTC_88
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ZBN6VSE6UM4A
-Tags: contact form 7, spam, captcha
+=== Contact Form 7 Image CAPTCHA, WPForms Image CAPTCHA, Contact Form 7 Spam Image CAPTCHA, WPForms Spam Image CAPTCHA, GDPR ===
+Contributors: hookandhook
+Tags: Contact Form 7, Spam, CAPTCHA, GDPR, WPForms
 Requires at least: 4.7
 Requires PHP: 7.0
-Tested up to: 6.1.1
-Stable tag: trunk
+Tested up to: 6.7
+Stable tag: 3.3.22
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Adds a clean image captcha to Contact Form 7
+Adds an Image CAPTCHA to Contact Form 7 and WPForms, GDPR ready, perfect WPForms or Contact Form 7 Spam Protection Image CAPTCHA, adds a honeypot
 
 == Description ==
 
-Add an SVG image captcha and honeypot to your contact form 7 form. This CAPTCHA is GDPR compliant and becuase the images are inline SVG's, this plugin will not slow down your site with additional header requests like Google's ReCAPTCHA and respects your users privacy.
+Add an SVG image captcha and honeypot to your Contact Form 7 or WPForms form. Based on our interpretation this CAPTCHA plugin is GDPR compliant because the images are inline SVGs and no download of external resources happens, in addition no cookies or other storing mechanisms are used on the user's device, this plugin will not slow down your site with additional header requests like Google's ReCAPTCHA and respects your users privacy.
 
 = Directions [PLEASE READ] =
-Add the shortcode [cf7ic] to the form editor where you want the captcha to appear.
+Contact Form 7:
+Add the shortcode [cf7ic] to the form editor where you want the CAPTCHA to appear.
 
-You can hide the CAPTCHA until a user interacts with the form, by adding "toggle" to the shortcode.
-`[cf7ic "toggle"]`
+You can hide the CAPTCHA until a user interacts with the form, by adding "toggle" to the shortcode: [cf7ic "toggle"]
+
+WPForms:
+Just activate the CAPTCHA for WPForms on the plugin's settings page.
 
 **Like the plugin?**
 **Please consider leaving a review.**
@@ -27,20 +29,18 @@ You can hide the CAPTCHA until a user interacts with the form, by adding "toggle
 As of version 3.2.0, **Contact Form 7 Conditional Fields** is now fully supported! You no longer need to add `[hidden kc_captcha "kc_human"]` to forms that do not include the [cf7ic] shortcode.
 
 == Go Pro! ==
-Get even better spam protection with the All-in-one Image CAPTCHA Pro version of this plugin which includes additional options to improve spam protection, options to control the look and style of the CAPTCHA, additional forms support including login screens, gravity forms, WooCommerce, WPForms and more. 
+Get even better spam protection with the All-in-one Image CAPTCHA Pro version of this plugin which includes additional options to improve spam protection, options to control the look and style of the CAPTCHA and messages, additional forms support including login screens, gravity forms, WooCommerce and more. 
 
 **PRO Demo**
-See the Pro version in action on my <a href="https://kccomputing.net/contact-me/" target="_blank">Contact page</a>. You can also check out my <a href="https://www.youtube.com/channel/UCZznQBUawR-YqPBW8JjXzcw" target="_blank">YouTube channel</a> for instructional videos and demos.
+See the Pro version in action on my <a href="https://wpimagecaptcha.com/contact/?utm_source=wp_readme&utm_medium=wp_readme&wp_campaign=readme" target="_blank">contact page</a>.
 
-
-Check out our <a href="https://kccomputing.net/downloads/contact-form-7-image-captcha-pro/" target="_blank">pro version</a> for more details.
+Check out our <a href="https://wpimagecaptcha.com/downloads/pro-plugin/?utm_source=wp_readme&utm_medium=wp_readme&wp_campaign=readme" target="_blank">pro version</a> for more details.
 
 **PRO Features:**
 
 * GDPR compliant
 * ADA/a11y/WCAG compliant
 * Gravity Forms support
-* WPForms support
 * WooCommerce support for login, registration and checkout forms (optional)
 * WordPress login/registration form support (optional)
 * Default WordPress comment support
@@ -62,7 +62,7 @@ Check out our <a href="https://kccomputing.net/downloads/contact-form-7-image-ca
 * Change the box from full width to content width
 * jQuery free on the front end
 
-<a href="http://kccomputing.net/downloads/contact-form-7-image-captcha-pro/" target="_blank">Go Pro!</a>
+<a href="https://wpimagecaptcha.com/downloads/pro-plugin/?utm_source=wp_readme&utm_medium=wp_readme&wp_campaign=readme" target="_blank">Go Pro!</a>
 
 == Installation ==
 
@@ -72,15 +72,62 @@ Check out our <a href="https://kccomputing.net/downloads/contact-form-7-image-ca
 
 == Frequently Asked Questions ==
 
-= How do you add the image CAPTCHA to the forms? =
+= Language issues? =
 
-Simply add this shortcode `[cf7ic]` to your contact form
+If either only parts of the CAPTCHA text is translated, or everything is displayed in English, please read through the following possible causes and how to fix them.
 
-= How do you use the toggle feature? =
+**1 Translation missing**
+All plugins within the wordpress.org repository are translated by the translate.wordpress.org community.
+Maybe <a href="https://translate.wordpress.org/projects/wp-plugins/contact-form-7-image-captcha/" target="_blank">your language set</a> is not fully translated or not translated at all.
+
+*In this case, you have the following options:*
+1. Contribute to the translate.wordpress.org community and translate your language
+2. Use another plugin to create your own local translation
+3. Purchase the WP Image CAPTCHA PRO plugin which offers the possibility to choose your own messages without relying on any external translation - <a href="https://wpimagecaptcha.com/downloads/pro-plugin/?utm_source=wp_readme&utm_medium=wp_readme&wp_campaign=readme" target="_blank">Go Pro!</a>
+
+**2 Update WordPress translations**
+You might face the situation that your language pack is completely translated on translate.wordpress.org but the translation still might not work as expected.
+
+*In this case, you have the following options:*
+1. Update your language packs via: WP Admin > Dashboard > Updates > Translations > Update Translations
+
+**3 Contact Form 7 language settings**
+Contact Form 7 saves a meta variable for the language of each respective form and this is being done when you FIRST save the form. 
+
+*In this case, you have the following options:*
+1. Change the variable via the WordPress database directly (look for the post ID of the respective form in the postmeta table and there’ll be a “_locale” option).
+2. Make sure to change the language in your WordPress backend to your desired target language and then simply re-create the CF7 form.
+
+= Does the plugin support WPML? =
+
+Yes, both the free and pro versions support WPML.
+In fact, there is an <a href="https://wpml.org/plugin/wp-image-captcha/" target="_blank">active partnership between WPML and WP Image CAPTCHA</a> for seamless integration.
+
+= Issues using WPML, CF7 and our plugin? =
+
+Please follow those steps:
+1. Install CF7 and our plugin
+2. Install WPML plugin and the CF7 Multilingual addon
+3. WP admin backend: Choose your desired language, via flag at the top menu e.g. German (<a href="https://storage.googleapis.com/pubass/hookandhook/wpml-first-screenshot.png" target="_blank">see screenshot</a>)
+4. WP admin backend: Choose Contact > Contact Forms > Add New
+5. CF7: Translate the labels
+6. CF7: In the right white sidebar, choose Translations to e.g. English (<a href="https://storage.googleapis.com/pubass/hookandhook/wpml-first-screenshot.png" target="_blank">see screenshot</a>)
+7. WPML: Translate the strings into e.g. English
+8. WPML: When finished click the green button: "Complete Translation"
+9. WP admin backend: Choose Pages > Add New Page
+10. WP page: Set the e.g. German title "Kontaktformular" and insert the Contact Form 7 shortcode
+11. WP page: Save as draft or publish page
+12. WP page: On the right, click: e.g. English + Translate (<a href="https://storage.googleapis.com/pubass/hookandhook/wpml-second-screenshot.png" target="_blank">see screenshot</a>)
+
+= How do you add the image CAPTCHA to the Contact Form 7 forms? =
+
+Simply add this shortcode [cf7ic] to your contact form.
+
+= How do you use the toggle feature for Contact Form 7? =
 
 To make it so the CAPTCHA only shows when the form is being filled out, add "toggle" to the shortcode `[cf7ic "toggle"]` in your contact form.
 
-= Toggle is not working =
+= Toggle for Contact Form 7 is not working =
 
 The most likely reason the toggle is not working is because the double quotes around the word toggle has been changed to "smart quotes", meaning that they are opening and closing quotation marks and not the verticle lines.
 
@@ -96,11 +143,63 @@ If the styling does not look right, you may need to clear your browser cache. If
 
 == Screenshots ==
 
-1. screenshot-1.png
-2. screenshot-2.png
-3. Pro version settings page
+1. CAPTCHA for Contact Form 7
+2. CAPTCHA for WPForms
+3. PRO plugin
 
 == Changelog ==
+
+= 3.3.22 [11/14/2024] =
+* Tested up to 6.7
+
+= 3.3.21 [11/09/2024] =
+* Fix CF7 warning: 'Deprecated: WPCF7_TagGenerator::add(): Use of tag generator instances older than version 2 is deprecated. Version 1 instance (WP Image CAPTCHA) detected.'
+
+= 3.3.20 [10/20/2024] =
+* Add aria-labels + style WP Forms captcha
+
+= 3.3.19 [09/11/2024] =
+* Clean up
+
+= 3.3.18 [09/09/2024] =
+* Remove unused function
+
+= 3.3.17 [08/09/2024] =
+* Update FAQ
+
+= 3.3.16 [08/09/2024] =
+* Update FAQ and tested up to 6.6
+
+= 3.3.15 [05/28/2024] =
+* Update FAQ
+
+= 3.3.14 [04/21/2024] =
+* Update tested up to
+
+= 3.3.13 [02/14/2024] =
+* Fix CSS bug in toggle logic
+
+= 3.3.12 [11/13/2023] =
+* Language changes
+
+= 3.3.11 [11/10/2023] =
+* Fix CF7 toggle function side effects for WPBakery
+
+= 3.3.10 [10/29/2023] =
+* Fix table creation bug + fix function name bug when pro plugin activated
+
+= 3.3.9 [10/17/2023] =
+* Language changes
+
+= 3.3.8 [09/28/2023] =
+* Add Danish language files
+
+= 3.3.7 [09/22/2023] =
+* Display WP Admin menu, add WPForms functionality, update languages
+
+= 3.3.6 [09/04/2023] =
+* Change URLs to new plugin website and change author etc.
+
 = 3.3.5 [01/26/2023] =
 * Added additional changes to the plugin's internationalization settings to fix issues with translations not working correctly on some sites.
 

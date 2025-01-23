@@ -1,0 +1,229 @@
+/*--------------------------------------------------------------
+  Image CAPTCHA CF7
+--------------------------------------------------------------*/
+.captcha-image {
+  border: 1px solid;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.cf7ic_instructions {
+  display: block;
+}
+
+.captcha-image .cf7ic_instructions span {
+  font-weight: bold;
+}
+
+.captcha-image label {
+  display: inline-block !important;
+  width: 60px !important;
+  position: relative;
+}
+
+/* Hide radio */
+.captcha-image svg {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.captcha-image label>input+svg {
+  cursor: pointer;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image styles */
+.captcha-image label>input:checked+svg,
+.captcha-image label>input:focus+svg {
+  border: 2px solid #f00;
+}
+/* (Checked) image styles */
+
+
+/*--------------------------------------------------------------
+  Image CAPTCHA WPForms
+--------------------------------------------------------------*/
+
+span.wpcf7-form-control.wpcf7-cf7ic {
+  border: none;
+}
+
+.kc_captcha {
+  display: inherit;
+}
+
+/* Style 1 */
+.cf7ic-style1 {
+  border: 1px solid;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.cf7ic-icon-wrapper {
+  font-size: inherit;
+}
+
+.cf7ic-style1 .cf7ic-icon-wrapper .fa,
+.cf7ic-style1 .cf7ic-icon-wrapper svg {
+  font-size: inherit;
+  border-color: inherit;
+}
+
+body .cf7ic-style1 .cf7ic-icon-wrapper svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  box-sizing: content-box !important;
+}
+
+.woocommerce .captcha-image .cf7ic-icon-wrapper label,
+.woocommerce-page .captcha-image .cf7ic-icon-wrapper label,
+.captcha-image .cf7ic-icon-wrapper label {
+  display: inline-block;
+  width: inherit;
+  vertical-align: text-top;
+}
+
+.captcha-image label>input {
+  /* Hide radio */
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  position: absolute !important;
+}
+
+.captcha-image label>input+* {
+  /* Image styles */
+  position: static;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: none;
+  border-color: transparent;
+  padding: 7px;
+}
+
+.captcha-image label>input:checked+*,
+.captcha-image label>input:focus+* {
+  /* (Checked) image styles */
+  padding: 5px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.cf7ic-special {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  width: 200px;
+}
+
+.cf7ic-loader,
+.cf7ic-loader:before,
+.cf7ic-loader:after {
+  border-radius: 50% !important;
+  width: 2em !important;
+  height: 2em !important;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: cf7ic-load 1.2s infinite ease-in-out;
+  animation: cf7ic-load 1.2s infinite ease-in-out;
+}
+
+.cf7ic-loader {
+  display: block;
+  color: #444;
+  font-size: 10px !important;
+  margin: 4.8em 6em !important;
+  position: relative !important;
+  text-indent: -9999em !important;
+  -webkit-transform: translateZ(0) !important;
+  -ms-transform: translateZ(0) !important;
+  transform: translateZ(0) !important;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+.cf7ic-loader:before,
+.cf7ic-loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+
+.cf7ic-loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.cf7ic-loader:after {
+  left: 3.5em;
+}
+
+@-webkit-keyframes cf7ic-load {
+
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+@keyframes cf7ic-load {
+
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+/* Fix for WPForms */
+.ai1ic-fields {
+  height: 0 !important;
+  display: block;
+  overflow: hidden !important;
+}
+
+body .ai1ic-fields input {
+  position: absolute;
+  transform: scale(0);
+}
+
+.cf7ic-wpf {
+  margin-bottom: 30px !important;
+}
+
+.cf7ic-wpf .captcha-image label {
+  width: 35px !important;
+}
+
+.cf7ic-wpf .captcha-image label i {
+  width: 35px !important;
+  text-align: center;
+}
+
+.cf7ic-wpf .captcha-image .cf7ic-icon-wrapper {
+  display: block;
+  text-align: left !important;
+}
