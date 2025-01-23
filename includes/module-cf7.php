@@ -22,7 +22,7 @@ function call_cf7ic($tag)
         $toggle = $tag['raw_values'][0];
     }
 
-    $language_map = [
+    $language_mapx = [
         'heart' => __('heart', 'contact-form-7-image-captcha'),
         'house' => __('house', 'contact-form-7-image-captcha'),
         'star' => __('star', 'contact-form-7-image-captcha'),
@@ -33,9 +33,25 @@ function call_cf7ic($tag)
         'truck' => __('truck', 'contact-form-7-image-captcha'),
         'tree' => __('tree', 'contact-form-7-image-captcha'),
         'plane' => __('plane', 'contact-form-7-image-captcha'),
-        'text' => __('Please prove you are human by selecting the', 'contact-form-7-image-captcha'),
+        'text' => __('Please prove you are human by selecting the', 'contact-form-7-image-captcha'),        
+        
         'dot' => __('.', 'contact-form-7-image-captcha')
     ];
+
+    $language_map = [
+        'heart' => __('Herz', 'contact-form-7-image-captcha'),
+        'house' => __('Haus', 'contact-form-7-image-captcha'),
+        'star' => __('Stern', 'contact-form-7-image-captcha'),
+        'car' => __('Auto', 'contact-form-7-image-captcha'),
+        'cup' => __('Tasse', 'contact-form-7-image-captcha'),
+        'flag' => __('Flagge', 'contact-form-7-image-captcha'),
+        'key' => __('Schlüssel', 'contact-form-7-image-captcha'),
+        'truck' => __('LKW', 'contact-form-7-image-captcha'),
+        'tree' => __('Baum', 'contact-form-7-image-captcha'),
+        'plane' => __('Flugzeug', 'contact-form-7-image-captcha'),
+        'text' => __('Bitte beweisen Sie, dass Sie ein Mensch sind und wählen Sie', 'contact-form-7-image-captcha'),
+        'dot' => __('.', 'contact-form-7-image-captcha')
+    ];    
 
     // Create an array to hold the image library
     $captchas = array(
@@ -135,7 +151,8 @@ function cf7ic_check_if_spam($result, $tag)
 
         if (!empty($kc_val1) && $kc_val1 != 'kc_human') {
             $tag->name = "kc_captcha";
-            $error = __('Please select the correct icon.', 'contact-form-7-image-captcha');
+            //$error = __('Please select the correct icon.', 'contact-form-7-image-captcha');
+            $error = __('Bitte wählen Sie das richtige Symbol aus.', 'contact-form-7-image-captcha');            
             $result->invalidate($tag, $error);
         }
         if (empty($kc_val1)) {
