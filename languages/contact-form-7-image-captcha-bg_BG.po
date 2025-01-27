@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha 1.1\n"
+"POT-Creation-Date: 2018-01-09 13:23-0800\n"
+"PO-Revision-Date: 2023-11-13 06:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.6; wp-6.4.1"
+
+#: includes/module-cf7.php:36
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid "Adds an image CAPTCHA to your \"Contact Form 7\" and \"WPForms\" forms."
+msgstr ""
+
+#: includes/captcha-generator.php:25 includes/module-cf7.php:28
+#| msgid "Car"
+msgid "car"
+msgstr "Кола"
+
+#: includes/captcha-generator.php:29 includes/module-cf7.php:29
+#| msgid "Cup"
+msgid "cup"
+msgstr "Чаша"
+
+#: includes/captcha-generator.php:33 includes/module-cf7.php:30
+#| msgid "Flag"
+msgid "flag"
+msgstr "Знаме"
+
+#: includes/captcha-generator.php:13 includes/module-cf7.php:25
+#| msgid "Heart"
+msgid "heart"
+msgstr "Сърце"
+
+#: includes/captcha-generator.php:17 includes/module-cf7.php:26
+#| msgid "House"
+msgid "house"
+msgstr "Къща"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpimagecaptcha.com/"
+msgstr ""
+
+#: includes/captcha-generator.php:37 includes/module-cf7.php:31
+#| msgid "Key"
+msgid "key"
+msgstr "Ключ"
+
+#: includes/captcha-generator.php:49 includes/module-cf7.php:34
+#| msgid "Plane"
+msgid "plane"
+msgstr "Самолет"
+
+#: includes/captcha-generator.php:69 includes/module-cf7.php:35
+#| msgid "Please prove you are human by selecting the "
+msgid "Please prove you are human by selecting the"
+msgstr "Моля кликнете с мишката върху"
+
+#: includes/module-cf7.php:142 includes/module-wpforms.php:34
+msgid "Please select an icon."
+msgstr "Моля изберете икона."
+
+#: includes/module-cf7.php:137 includes/module-wpforms.php:32
+msgid "Please select the correct icon."
+msgstr "Моля изберете правилния иконата."
+
+#: includes/captcha-generator.php:21 includes/module-cf7.php:27
+#| msgid "Star"
+msgid "star"
+msgstr "Звезда"
+
+#: includes/module-wpforms.php:30
+msgid "The captcha was incorrect. Please reload the page."
+msgstr "Каптча е неправилна. Моля, презаредете страницата."
+
+#: includes/module-wpforms.php:36
+msgid "This message has been marked as spam."
+msgstr "Това съобщение е отбелязано като спам."
+
+#: includes/captcha-generator.php:45 includes/module-cf7.php:33
+#| msgid "Tree"
+msgid "tree"
+msgstr "Дърво"
+
+#: includes/captcha-generator.php:41 includes/module-cf7.php:32
+#| msgid "Truck"
+msgid "truck"
+msgstr "Камион"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Image CAPTCHA"
+msgstr ""

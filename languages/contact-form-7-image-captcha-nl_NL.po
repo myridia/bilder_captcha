@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-09 12:05+0000\n"
+"PO-Revision-Date: 2023-11-13 06:47+0000\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: \n"
+"Language: nl_NL"
+
+#: includes/module-cf7.php:36
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid "Adds an image CAPTCHA to your \"Contact Form 7\" and \"WPForms\" forms."
+msgstr ""
+
+#: includes/captcha-generator.php:25 includes/module-cf7.php:28
+#| msgid "Car"
+msgid "car"
+msgstr "de auto"
+
+#: includes/captcha-generator.php:29 includes/module-cf7.php:29
+#| msgid "Cup"
+msgid "cup"
+msgstr "het Kopje"
+
+#: includes/captcha-generator.php:33 includes/module-cf7.php:30
+#| msgid "Flag"
+msgid "flag"
+msgstr "de vlag"
+
+#: includes/captcha-generator.php:13 includes/module-cf7.php:25
+#| msgid "Heart"
+msgid "heart"
+msgstr "het hart"
+
+#: includes/captcha-generator.php:17 includes/module-cf7.php:26
+#| msgid "House"
+msgid "house"
+msgstr "het huis"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpimagecaptcha.com/"
+msgstr ""
+
+#: includes/captcha-generator.php:37 includes/module-cf7.php:31
+#| msgid "Key"
+msgid "key"
+msgstr "de sleutel"
+
+#: includes/captcha-generator.php:49 includes/module-cf7.php:34
+#| msgid "Plane"
+msgid "plane"
+msgstr "het vliegtuig"
+
+#: includes/captcha-generator.php:69 includes/module-cf7.php:35
+#| msgid "Please prove you are human by selecting the "
+msgid "Please prove you are human by selecting the"
+msgstr "Toon a.u.b. dat u menselijk bent door de selectie van"
+
+#: includes/module-cf7.php:142 includes/module-wpforms.php:34
+msgid "Please select an icon."
+msgstr "Selecteer a.u.b. een symbool."
+
+#: includes/module-cf7.php:137 includes/module-wpforms.php:32
+msgid "Please select the correct icon."
+msgstr "Selecteer a.u.b. het juiste symbool."
+
+#: includes/captcha-generator.php:21 includes/module-cf7.php:27
+#| msgid "Star"
+msgid "star"
+msgstr "de ster"
+
+#: includes/module-wpforms.php:30
+msgid "The captcha was incorrect. Please reload the page."
+msgstr "De captcha was onjuist. Laad de pagina opnieuw."
+
+#: includes/module-wpforms.php:36
+msgid "This message has been marked as spam."
+msgstr "Dit bericht is gemarkeerd als spam."
+
+#: includes/captcha-generator.php:45 includes/module-cf7.php:33
+#| msgid "Tree"
+msgid "tree"
+msgstr "de boom"
+
+#: includes/captcha-generator.php:41 includes/module-cf7.php:32
+#| msgid "Truck"
+msgid "truck"
+msgstr "de vrachtwagen"
+
+#. Name of the plugin
+#. Author of the plugin
+#| msgid "Image Captcha"
+msgid "WP Image CAPTCHA"
+msgstr ""

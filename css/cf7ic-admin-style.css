@@ -1,0 +1,82 @@
+.wrap h2.cf7ic-main-heading {
+    margin-left: 15px;
+}
+
+.cf7ic-main-wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: stretch;
+}
+
+.cf7ic-highlight {
+    font-weight: bold;
+}
+
+.cf7ic-form-icons {
+    height: 20px;
+    width: auto;
+}
+
+.cf7ic-example {
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+.cf7ic-separator {
+    margin: 40px 0;
+    border-bottom: solid 1px black;
+}
+
+.cf7ic-example.cf7ic-example-spam {
+    border: none;
+    width: 58px;
+    height: auto;
+}
+
+.cf7ic-wrapper {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    flex-basis: 44%;
+}
+
+.cf7ic-wrapper h3 {
+    margin-top: 0;
+}
+
+.cf7ic-pro-p {
+    font-size: 1.2em;
+}
+
+.cf7ic-btn-primary {
+    background-color: #ffb100 !important;
+    border-color: #ffb100 !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.2em !important;
+}
+
+.cf7ic-review {
+    margin-top: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.cf7ic-review-heading {
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+}
+
+.cf7ic-stars {
+    color: #ffb100;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.cf7ic-reviewer {
+    margin-top: 15px;
+    font-style: italic;
+}

@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Image Captcha 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-08 12:46-0700\n"
+"PO-Revision-Date: 2023-11-13 06:45+0000\n"
+"Last-Translator: Phoenix.bg <phoenix.bg@gmail.com>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: en_GB\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: includes/module-cf7.php:36
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid "Adds an image CAPTCHA to your \"Contact Form 7\" and \"WPForms\" forms."
+msgstr ""
+
+#: includes/captcha-generator.php:25 includes/module-cf7.php:28
+#| msgid "Car"
+msgid "car"
+msgstr "ماشین"
+
+#: includes/captcha-generator.php:29 includes/module-cf7.php:29
+#| msgid "Cup"
+msgid "cup"
+msgstr "فنجان"
+
+#: includes/captcha-generator.php:33 includes/module-cf7.php:30
+#| msgid "Flag"
+msgid "flag"
+msgstr "پرچم"
+
+#: includes/captcha-generator.php:13 includes/module-cf7.php:25
+#| msgid "Heart"
+msgid "heart"
+msgstr "قلب"
+
+#: includes/captcha-generator.php:17 includes/module-cf7.php:26
+#| msgid "House"
+msgid "house"
+msgstr "خانه"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpimagecaptcha.com/"
+msgstr ""
+
+#: includes/captcha-generator.php:37 includes/module-cf7.php:31
+#| msgid "Key"
+msgid "key"
+msgstr "کلید"
+
+#: includes/captcha-generator.php:49 includes/module-cf7.php:34
+#| msgid "Plane"
+msgid "plane"
+msgstr "هواپیما"
+
+#: includes/captcha-generator.php:69 includes/module-cf7.php:35
+#| msgid "Please prove you are human by selecting the "
+msgid "Please prove you are human by selecting the"
+msgstr "تایید کنید که ربات نیستید با انتخاب"
+
+#: includes/module-cf7.php:142 includes/module-wpforms.php:34
+msgid "Please select an icon."
+msgstr "یک نماد انتخاب کنید"
+
+#: includes/module-cf7.php:137 includes/module-wpforms.php:32
+msgid "Please select the correct icon."
+msgstr "لطفا نماد درست را انتخاب کنید"
+
+#: includes/captcha-generator.php:21 includes/module-cf7.php:27
+#| msgid "Star"
+msgid "star"
+msgstr "ستاره"
+
+#: includes/module-wpforms.php:30
+msgid "The captcha was incorrect. Please reload the page."
+msgstr "کپچا نادرست بود. لطفا صفحه را دوباره بارگذاری کنید."
+
+#: includes/module-wpforms.php:36
+msgid "This message has been marked as spam."
+msgstr "این پیام به عنوان هرزنامه علامت گذاری شده است."
+
+#: includes/captcha-generator.php:45 includes/module-cf7.php:33
+#| msgid "Tree"
+msgid "tree"
+msgstr "درخت"
+
+#: includes/captcha-generator.php:41 includes/module-cf7.php:32
+#| msgid "Truck"
+msgid "truck"
+msgstr "کامیون"
+
+#. Name of the plugin
+#. Author of the plugin
+msgid "WP Image CAPTCHA"
+msgstr ""
